@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Calculator CSS/style.css">
+    <title>Simple Calculator</title>
 </head>
 <body>
-    
+    <header>
+      <h1>KALKULATOR ARITMATIKA</h1>
+    </header>
+    <main>
+        <div class="output">
+            <input type="number" id="output-number">
+        </div>
+        <div class="input">
+            <table>
+                <tr class="inputNumber">
+                    <td class="inputSection" colspan="3"><button id="clear-all">C</button></td>
+                    <td class="inputSection"><button class="operation">:</button></td>
+                </tr>
+                <tr class="inputNumber">
+                    <td class="inputSection"><button>1</button></td>
+                    <td class="inputSection"><button>2</button></td>
+                    <td class="inputSection"><button>3</button></td>
+                    <td class="inputSection"><button class="operation">x</button></td>
+                </tr>
+                <tr class="inputNumber">
+                    <td class="inputSection"><button>4</button></td>
+                    <td class="inputSection"><button>5</button></td>
+                    <td class="inputSection"><button>6</button></td>
+                    <td class="inputSection"><button class="operation">+</button></td>
+                </tr>
+                <tr>
+                    <td class="inputSection"><button>7</button></td>
+                    <td class="inputSection"><button>8</button></td>
+                    <td class="inputSection"><button>9</button></td>
+                    <td class="inputSection"><button class="operation">-</button></td>
+                </tr>
+                <tr>
+                    <td class="inputSection"><button>00</button></td>
+                    <td class="inputSection"><button>0</button></td>
+                    <td class="inputSection"><button>.</button></td>
+                    <td class="inputSection"><button id="equal">=</button></td>                    
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>
+            © 2024 Project Simple Calculator | <a href="https://github.com/DimsRK" target="_blank">By: Dimas Restu Kumbayohni</a> . All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>

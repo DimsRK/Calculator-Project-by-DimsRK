@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: #750E21;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+}
+
+main {
+    margin-top: 20px;
+    border: solid 5px #750E21;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+
+#output-number {
+    border: solid 1px #750E21;
+    border-radius: 4px;
+    margin: 5px;
+    width: 275px;
+    height: 45px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    size: 100px;
+}
+
+td {
+    border: none;
+    text-align: center;
+}
+
+button {
+    height: 63px;
+    width: 67px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: solid 1px #750E21;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: grey;
+}
+
+#clear-all {
+    background-color: #ff0505;
+    width: 100%;
+}
+
+#clear-all:active {
+    background-color: #b60000;
+}
+
+#equal {
+    background-color: #65B741;
+}
+
+#equal:active {
+    background-color: #43772c;
+}
+
+.operation {
+    background-color: black;
+    color: white;
+}
+
+footer p, footer a {
+    margin-top: 50px;
+    background-color: #750E21;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: underline;
+}
