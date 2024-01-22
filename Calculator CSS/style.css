@@ -22,7 +22,7 @@ main {
     height: 400px;
 }
 
-#output-number {
+#display {
     border: solid 1px #750E21;
     border-radius: 4px;
     margin: 5px;
@@ -30,6 +30,7 @@ main {
     height: 45px;
     font-weight: bold;
     font-size: x-large;
+    text-align: right;
 }
 
 table {
