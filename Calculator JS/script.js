@@ -22,6 +22,8 @@ function calculate() {
         document.getElementById('display').value = 'Error';
         isError = true;
                 disableButtons();
+                console.log('ERROR!! klik tombol C agar bisa meng-input ulang.');
+                alert('ERROR!! klik tombol C agar bisa meng-input ulang.');
             } 
 }
 
@@ -53,7 +55,7 @@ function disableButtons() {
             buttons[i].disabled = true;
         }
     }
-    document.getElementById('clear').disabled = false; // Mengaktifkan tombol Clear
+    document.getElementById('clear-all').disabled = false; // Mengaktifkan tombol Clear
 }
 
 function enableButtons() {
