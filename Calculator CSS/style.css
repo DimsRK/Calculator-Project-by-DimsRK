@@ -34,6 +34,7 @@ main {
     font-weight: bold;
     font-size: x-large;
     text-align: right;
+    color: #750E21;
 }
 
 table {
@@ -54,6 +55,7 @@ button {
     border-radius: 4px;
     border: solid 1px #750E21;
     font-weight: bold;
+    color: #750E21;
 }
 
 button:active {
@@ -63,6 +65,7 @@ button:active {
 #clear-all {
     background-color: #ff0505;
     width: 100%;
+    color: black;
 }
 
 #clear-all:active {
@@ -71,6 +74,7 @@ button:active {
 
 #equal {
     background-color: #65B741;
+    color: black;
 }
 
 #equal:active {
@@ -82,6 +86,15 @@ button:active {
     color: white;
 }
 
+#backspace-button {
+    background-color: #FFA447;
+    color: black;
+}
+
+#backspace-button:active {
+    background-color: #c27325;
+}
+
 footer p, footer a {
     margin-top: 50px;
     background-color: #750E21;
@@ -90,3 +103,17 @@ footer p, footer a {
     font-weight: 900;
     text-decoration: underline;
 }
+
+/* Media query untuk layar dengan lebar maksimal 600px */
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 10px;
+    }
+  }
+    
+  /* Media query untuk layar dengan lebar antara 601px dan 900px */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+  }
