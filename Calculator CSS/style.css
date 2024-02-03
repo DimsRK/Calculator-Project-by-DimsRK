@@ -1,9 +1,11 @@
 body {
     text-align: center;
-    background-image: url(../Assets/math\ simple\ background\ light.jpg);
+    background-image: url(../Assets/math\ background\ 3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    background-blend-mode: overlay;
 }
 
 h1 {
