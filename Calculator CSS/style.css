@@ -1,6 +1,9 @@
 body {
     text-align: center;
     background-image: url(../Assets/math\ simple\ background\ light.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1 {
