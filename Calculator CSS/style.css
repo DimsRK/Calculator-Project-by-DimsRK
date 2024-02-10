@@ -106,16 +106,14 @@ footer p, footer a {
     font-style: italic;
     font-weight: 900;
     text-decoration: underline;
-}
-
-footer {
     margin-bottom: 0px;
+    padding: 0px;
 }
 
 /* Media query untuk layar dengan lebar maksimal 600px */
 @media screen and (max-width: 600px) {
     body {
-      font-size: 10px;
+      font-size: 14px;
     }
   }
     
