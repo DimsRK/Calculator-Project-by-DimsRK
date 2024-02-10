@@ -13,6 +13,7 @@ h1 {
     color: white;
     font-style: italic;
     font-weight: 900;
+    margin-top: 0px;
 }
 
 main {
@@ -105,6 +106,10 @@ footer p, footer a {
     font-style: italic;
     font-weight: 900;
     text-decoration: underline;
+}
+
+footer {
+    margin-bottom: 0px;
 }
 
 /* Media query untuk layar dengan lebar maksimal 600px */
